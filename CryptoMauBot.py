@@ -17,7 +17,7 @@ async def my_event_handler(event):
     #destination_user_username='Destination'
     #entity=await client.get_entity("Destination")
     #updates = await client(ImportChatInviteRequest('AAAAAFUe_UyK1izc5Hu86Q'))
-    if str(chat.id)=="1299846320":
+    if str(chat.id)=="1205199643":
         #await client.send_message(,event.raw_text)
         await client.send_message(1306509155, event.message)
 
