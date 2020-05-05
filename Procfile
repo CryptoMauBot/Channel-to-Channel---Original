@@ -1,1 +1,1 @@
-worker: python3 CryptoMauBot.py
+worker: python3 ChannelToChannel.py
