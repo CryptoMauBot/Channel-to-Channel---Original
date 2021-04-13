@@ -15,7 +15,7 @@ async def my_event_handler(event):
     #if str(chat.id)=="1444042095":
     if str(chat.id) in sources.keys():
         #await client.send_message(1249866283, event.message)
-        await client.reply_to_message(int(sources[str(chat.id)]), event.message)
+        await client.send_message(int(sources[str(chat.id)]), event.message)
 
 
 data=open("sources.txt","r").read().split("\n")
